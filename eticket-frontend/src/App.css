@@ -4,10 +4,23 @@
   --resolution-blue: #1D2089ff;
   --aureolin: #F5E009ff;
 }
-.container{
+.cont, .navbar{
   background-color: var(--bole);
+}
+.container{
   height: 100vh;
+}
+.row, .form-col{
+  justify-content: center;
 }
 #bus{
   transform: rotateY(180deg);
+}
+.navbar{
+  height: 60px;
+}
+@media(min-width:576px){
+  #bus{
+    width: 400px;
+  }
 }
