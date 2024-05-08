@@ -1,0 +1,13 @@
+:root{
+  --bole: #724133ff;
+  --baby-powder: #FFFFF7ff;
+  --resolution-blue: #1D2089ff;
+  --aureolin: #F5E009ff;
+}
+.container{
+  background-color: var(--bole);
+  height: 100vh;
+}
+#bus{
+  transform: rotateY(180deg);
+}
