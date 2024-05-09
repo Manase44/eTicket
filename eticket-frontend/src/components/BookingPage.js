@@ -1,35 +1,38 @@
-import React from 'react'
+import React from "react";
 
-function BookingPage() {
+const BookingPage = () => {
   return (
-    <div className='container'>
-        <nav className='navbar px-3'>
-            <span>eTicket</span>
-        </nav>
-        <div className='row'>
-            <div className='col form-col'>
-                <form className='form-group'>
-                    <div className='mb-2'>
-                      <label for='from'>From</label>
-                      <input name='from' id='from' type='text' required/>
-                    </div>
-                    <div className='mb-2'>
-                      <label for='To'>To</label>
-                      <input name='To' id='To' type='text'required/>
-                    </div>
-                    <div className='mb-2'>
-                      <label for='Date'>Date</label>
-                      <input name='Date' id='Date' type='date' required/>
-                    </div>
+    <div className=" flex items-center justify-center">
+      <div className=" bg-slate-200 rounded-md p-4 w-1/2 h-[100vh]">
+        <form>
+          <input
+            className=" rounded-md px-3 py-1 border border-slate-300 outline-blue-500 text-slate-700  w-full "
+            placeholder=" From..."
+          />
 
-                    <div>
-                      <input type='submit' value="Choose Seat" />
-                    </div>
-                </form>
-            </div>
-        </div>
+          <input
+            className=" rounded-md px-3 py-1 border border-slate-300 outline-blue-500 text-slate-700  w-full "
+            placeholder=" From..."
+          />
+
+          <input
+            className=" rounded-md px-3 py-1 border border-slate-300 outline-blue-500 text-slate-700  w-full "
+            placeholder=" From..."
+          />
+
+          <input
+            className=" rounded-md px-3 py-1 border border-slate-300 outline-blue-500 text-slate-700  w-full my-4 "
+            placeholder=" From..."
+          />
+<div
+          <input
+            className=" rounded-md px-3 py-1 border border-slate-300 outline-blue-500 text-slate-700  w-full "
+            placeholder=" From..."
+          />
+        </form>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default BookingPage
+export default BookingPage;
