@@ -1,26 +1,8 @@
-:root{
-  --bole: #724133ff;
-  --baby-powder: #FFFFF7ff;
-  --resolution-blue: #1D2089ff;
-  --aureolin: #F5E009ff;
-}
-.cont, .navbar{
-  background-color: var(--bole);
-}
-.container{
-  height: 100vh;
-}
-.row, .form-col{
-  justify-content: center;
+#cont{
+    height: 100vh;
+    width: 100vw;
 }
 #bus{
-  transform: rotateY(180deg);
-}
-.navbar{
-  height: 60px;
-}
-@media(min-width:576px){
-  #bus{
-    width: 400px;
-  }
+    height: 580px;
+    width: 350px;
 }
