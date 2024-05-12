@@ -1,17 +1,10 @@
 import React from "react";
-import { RiDownload2Fill } from "react-icons/ri";
+import Navbar from "./Navbar"
 
 const BookingPage = () => {
   return (
     <div>
-      <nav className="flex h-10 px-5 justify-between items-center bg-orange-950">
-        <div>
-          <span className="text-2xl text-white">eTicket</span>
-        </div>
-        <div>
-          <RiDownload2Fill className="text-white"/>
-        </div>
-      </nav>
+      <Navbar/>
       <div className="mt-4 flex justify-center">
         <form action="">
           <div>
