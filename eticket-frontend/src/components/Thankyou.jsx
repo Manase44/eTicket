@@ -1,12 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Thankyou = () => {
-    
   return (
     <div>
-        <p></p>
+      <p></p>
     </div>
-  )
-}
+  );
+};
 
-export default Thankyou
+export default Thankyou;

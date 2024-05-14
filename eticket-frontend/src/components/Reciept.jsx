@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
 import { RiDownload2Fill } from "react-icons/ri";
-
 
 const Reciept = () => {
   return (
     <div>
-        <RiDownload2Fill />
+      <RiDownload2Fill />
     </div>
-  )
-}
+  );
+};
 
-export default Reciept
+export default Reciept;

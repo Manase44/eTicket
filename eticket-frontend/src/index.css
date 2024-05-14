@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.input{
-    @apply rounded border px-2 py-1 h-12 ;
+.input {
+  @apply rounded border px-2 py-1 h-12;
 }
