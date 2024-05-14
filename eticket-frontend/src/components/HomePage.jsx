@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
-    <div className="h-screen flex justify-center flex-col gap-5 items-center bg-orange-950">
+    <div className="h-screen flex justify-center flex-col gap-5 items-center bg-chocolate-2">
       <div>
         <img src="/Bus/Bus.png" alt="The logo of the company" width={200} />
       </div>

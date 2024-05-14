@@ -5,7 +5,7 @@ const BookingPage = () => {
   return (
     <div>
       <Navbar />
-      <div className="mt-4 flex justify-center">
+      <div className="h-5/6 w-screen flex justify-center items-center text-slate-500 absolute bottom-0">
         <form action="">
           <div>
             <input
@@ -51,7 +51,7 @@ const BookingPage = () => {
           </div>
           <div className="flex justify-center">
             <input
-              className="rounded-full w-full bg-orange-950 hover:bg-white text-white hover:text-slate-400 text-semi-bold px-3 py-2"
+              className="rounded-full w-full bg-chocolate-2 hover:bg-white text-white hover:text-slate-400 text-semi-bold px-3 py-2 hover:border hover:border-chocolate-2"
               type="submit"
               value="Book Ticket"
             />

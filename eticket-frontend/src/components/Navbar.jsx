@@ -5,16 +5,18 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <nav className="flex h-10 px-5 justify-between items-center bg-orange-950">
-        <div>
-          <Link to={"/"}>
-            <span className="text-2xl text-white">eTicket</span>
-          </Link>
-        </div>
-        <div>
-          <RiDownload2Fill className="text-white" />
-        </div>
-      </nav>
+      <header>
+        <nav className="flex h-16 px-5 justify-between items-center bg-chocolate-2">
+          <div>
+            <Link to={"/"}>
+              <span className="text-2xl text-white">eTicket</span>
+            </Link>
+          </div>
+          <div>
+            <RiDownload2Fill className="text-white" />
+          </div>
+        </nav>
+      </header>
     </div>
   );
 };
