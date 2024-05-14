@@ -1,13 +1,8 @@
-:root{
-  --bole: #724133ff;
-  --baby-powder: #FFFFF7ff;
-  --resolution-blue: #1D2089ff;
-  --aureolin: #F5E009ff;
-}
-.container{
-  background-color: var(--bole);
+#cont {
   height: 100vh;
+  width: 100vw;
 }
-#bus{
-  transform: rotateY(180deg);
+#bus {
+  height: 580px;
+  width: 350px;
 }
